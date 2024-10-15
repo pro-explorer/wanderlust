@@ -54,7 +54,7 @@ function header() {
   };
 
   return (
-    <div className="relative -mt-2 h-[460px] bg-[url('./assets/wanderlustbg.webp')] bg-cover bg-fixed bg-center">
+    <div className="relative -mt-2 h-[460px] bg-[url('./assets/satravelcationsbg.jpg')] bg-cover bg-fixed bg-center">
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="absolute inset-0 flex flex-col px-8 py-8 text-slate-50 sm:px-16">
         <div className="flex w-full justify-between">

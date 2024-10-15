@@ -51,8 +51,8 @@ export default function BlogFeed() {
           </div>
           <h1 className="mb-2 cursor-text text-xl font-semibold dark:text-dark-primary">
             {selectedCategory === 'featured'
-              ? 'Featured Posts'
-              : `Posts related to "${selectedCategory}"`}
+              ? 'Packages'
+              : `Packages related to "${selectedCategory}"`}
           </h1>
           <div className="flex flex-col gap-6">
             {posts.length === 0 || loading == true
@@ -93,7 +93,7 @@ export default function BlogFeed() {
               What's new?
             </div>
             <h2 className="mb-2 cursor-text text-xl font-semibold dark:text-dark-primary">
-              Latest Posts
+              Latest Packages
             </h2>
             <div className="flex flex-col gap-4">
               {latestPosts.length === 0

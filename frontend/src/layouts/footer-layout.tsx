@@ -29,8 +29,8 @@ function footer() {
         </section>
 
         <section className="mt-4 flex items-center pl-16 text-xs">
-          <span className="mr-2">&copy;</span>
-          {year} All Rights Reserved
+          <span className="mr-2">Copyright &copy;</span>
+          {year} SA Travelcations - All Rights Reserved.
         </section>
       </div>
     </footer>
